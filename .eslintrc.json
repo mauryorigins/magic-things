@@ -22,7 +22,8 @@
     "rules": {
         // Javascript
         "no-console": "off",
-        "no-unused-vars": 0,
+        "no-plusplus":"off",
+        "no-unused-vars": "off",
         "comma-dangle": ["warn", "never"],
         "no-use-before-define": ["error", { "functions": false, "classes": true, "variables": true }],
         // Typescript
